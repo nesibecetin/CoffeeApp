@@ -11,7 +11,7 @@ namespace ConsoleUI
         static void Main(string[] args)
         {
             BaseCustomerManager baseCustomerManager = new StarbucksBusinessManager(new MernisServiceAdapters(), new CustomerRepositoryDal());
-            baseCustomerManager.Add(new Customer { BirthOfDate = new DateTime(1999, 10, 26), FirstName = "nesibe", LastName = "çetin", NationaltyId = "25690064002" });
+            baseCustomerManager.Add(new Customer { BirthOfDate = new DateTime(1999, 10, 26), FirstName = "nesibe", LastName = "çetin", NationaltyId = "25697777777" });
             Console.WriteLine("-----Liste-------");
             foreach (var customer in baseCustomerManager.getAll())
             {
